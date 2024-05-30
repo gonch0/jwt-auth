@@ -19,7 +19,7 @@ class MailService {
             from: process.env.SMTP_USER,
             to,
             subject: 'Активация акканта на ' + process.env.API_URL,
-            text: '123',
+            text: 'text',
             html:
                 `
                     <div>
